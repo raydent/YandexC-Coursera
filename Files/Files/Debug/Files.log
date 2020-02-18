@@ -1,0 +1,3 @@
+﻿  files.cpp
+C:\Users\R\source\repos\Files\Files\files.cpp(17,9): warning C4101: M: неиспользованная локальная переменная
+  Files.vcxproj -> C:\Users\R\source\repos\Files\Debug\Files.exe

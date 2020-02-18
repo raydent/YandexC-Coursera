@@ -1,0 +1,16 @@
+﻿  sqr.cpp
+C:\Users\R\source\repos\sqr\sqr\sqr.cpp(46,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "const std::map<int,std::pair<int,int>,std::less<int>,std::allocator<std::pair<const int,std::pair<int,int>>>>" (или приемлемое преобразование отсутствует)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\map(324,18): message : может быть "std::pair<int,int> &std::map<int,std::pair<int,int>,std::less<int>,std::allocator<std::pair<const int,std::pair<int,int>>>>::operator [](const int &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\map(153,18): message : или       "std::pair<int,int> &std::map<int,std::pair<int,int>,std::less<int>,std::allocator<std::pair<const int,std::pair<int,int>>>>::operator [](int &&)"
+C:\Users\R\source\repos\sqr\sqr\sqr.cpp(46,1): message : при попытке сопоставить список аргументов "(const std::map<int,std::pair<int,int>,std::less<int>,std::allocator<std::pair<const int,std::pair<int,int>>>>, _Ty1)"
+          with
+          [
+              _Ty1=const int
+          ]
+C:\Users\R\source\repos\sqr\sqr\sqr.cpp(76): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::map<int,std::pair<int,int>,std::less<int>,std::allocator<std::pair<const int,std::pair<int,int>>>> operator *<int,std::pair<int,int>>(const std::map<int,std::pair<int,int>,std::less<int>,std::allocator<std::pair<const int,std::pair<int,int>>>> &,const std::map<int,std::pair<int,int>,std::less<int>,std::allocator<std::pair<const int,std::pair<int,int>>>> &)"
+C:\Users\R\source\repos\sqr\sqr\sqr.cpp(86): message : выполняется компиляция ссылки на экземпляр шаблон функции "Collection Sqr<std::map<int,std::pair<int,int>,std::less<int>,std::allocator<std::pair<const int,std::pair<int,int>>>>>(Collection)"
+          with
+          [
+              Collection=std::map<int,std::pair<int,int>,std::less<int>,std::allocator<std::pair<const int,std::pair<int,int>>>>
+          ]
+C:\Users\R\source\repos\sqr\sqr\sqr.cpp(46,50): error C2088: [: недопустимо для class

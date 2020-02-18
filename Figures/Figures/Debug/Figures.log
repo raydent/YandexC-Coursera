@@ -1,0 +1,3 @@
+﻿  figures.cpp
+C:\Users\R\source\repos\Figures\Figures\figures.cpp(87): warning C4715: CreateFigure: значение возвращается не при всех путях выполнения
+  Figures.vcxproj -> C:\Users\R\source\repos\Figures\Debug\Figures.exe
