@@ -141,6 +141,7 @@
     <ClInclude Include="condition_parser.h" />
     <ClInclude Include="date.h" />
     <ClInclude Include="database.h" />
+    <ClInclude Include="node.h" />
     <ClInclude Include="test_runner.h" />
     <ClInclude Include="token.h" />
   </ItemGroup>
@@ -148,8 +149,11 @@
     <ClCompile Include="condition_parser.cpp" />
     <ClCompile Include="condition_parser_test.cpp" />
     <ClCompile Include="date.cpp" />
-    <ClCompile Include="database.cpp" />
+    <ClCompile Include="database.cpp">
+      <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdcpp17</LanguageStandard>
+    </ClCompile>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="node.cpp" />
     <ClCompile Include="token.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

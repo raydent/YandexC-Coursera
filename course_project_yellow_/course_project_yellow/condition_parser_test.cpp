@@ -76,3 +76,4 @@ void TestParseCondition() {
         Assert(root->Evaluate({ 2016, 1, 2 }, "event"), "Parse condition 30");
     }
 }
+

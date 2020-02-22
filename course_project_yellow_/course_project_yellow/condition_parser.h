@@ -2,21 +2,14 @@
 
 #pragma once
 
-#include "node.h"
 
 #include <memory>
 #include <iostream>
-
+#include <algorithm>
+#include "node.h"
 using namespace std;
 
-enum class Comparison {
-	Less,
-	LessOrEqual,
-	Greater,
-	GreaterOrEqual,
-	Equal,
-	NotEqual
-};
+
 shared_ptr<Node> ParseCondition(istream& is);
 
 void TestParseCondition();

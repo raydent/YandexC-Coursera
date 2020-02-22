@@ -30,6 +30,9 @@
     <ClInclude Include="database.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="token.cpp">
@@ -48,6 +51,9 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="database.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="node.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
